@@ -22,7 +22,7 @@ body {
 .left_container {
   width: 30vw;
   height: 100vh;
-  background-color: red;
+  background-color: #21092f;
   display: flex;
   align-items: center;
   /* justify-content: left; */
@@ -97,4 +97,29 @@ label {
   color: white;
   border: none;
   border-radius: 8px;
+}
+
+.cardInio {
+  display: flex;
+  position: relative;
+    top: -10%;
+    left: 30%;
+  /* height: 100vh;
+  width: 100vw; */
+  /* margin-top: -20rem; */
+  /* overflow: hidden; */
+  /* margin-left: 40rem ; */
+  flex-direction: column;
+  justify-content: flex-end;
+  width: 447px;
+  height: 245px;
+  padding: 30px;
+  gap: 0px;
+  border-radius: 10px;
+  opacity: 0px;
+  background: radial-gradient(circle, #6348fe, #610595, #d53aff, #ff834a);
+}
+.card_txts {
+  display: flex;
+  justify-content: space-between;
 }
